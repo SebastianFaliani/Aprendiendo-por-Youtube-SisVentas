@@ -35,8 +35,26 @@ namespace CapaPresentacion
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
+            this.Ingresar();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPassword_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                this.Ingresar(); 
+            }
+        }
+
+        private void Ingresar()
+        {
             DataTable Datos = CapaNegocio.NTrabajador.Login(this.txtUsuario.Text, this.txtPassword.Text);
-            
+
             //Evaluear si existe el usuario
             if (Datos.Rows.Count == 0)
             {
@@ -54,9 +72,5 @@ namespace CapaPresentacion
             }
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

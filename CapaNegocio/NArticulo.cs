@@ -66,5 +66,14 @@ namespace CapaNegocio
 
             return Obj.BuscarNombre(Obj);
         }
+
+        //Método Stock_Articulo que llama al método Stock_Articulo de la clase DArticulo de la CapaDatos
+        public static DataTable Stock_Articulo()
+        {
+            DArticulo Obj = new DArticulo();
+
+            return Obj.Stock_Articulo();
+            //return new DCategoria().Mostrar();
+        }
     }
 }

@@ -96,6 +96,7 @@ namespace CapaPresentacion
             // 
             // btnCancelar
             // 
+            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelar.Image")));
             this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCancelar.Location = new System.Drawing.Point(397, 226);
@@ -110,6 +111,7 @@ namespace CapaPresentacion
             // 
             // btnEditar
             // 
+            this.btnEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
             this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEditar.Location = new System.Drawing.Point(277, 226);
@@ -124,6 +126,7 @@ namespace CapaPresentacion
             // 
             // btnGuardar
             // 
+            this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.Image = ((System.Drawing.Image)(resources.GetObject("btnGuardar.Image")));
             this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnGuardar.Location = new System.Drawing.Point(155, 226);
@@ -138,6 +141,7 @@ namespace CapaPresentacion
             // 
             // btnNuevo
             // 
+            this.btnNuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNuevo.Image = ((System.Drawing.Image)(resources.GetObject("btnNuevo.Image")));
             this.btnNuevo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNuevo.Location = new System.Drawing.Point(35, 226);
@@ -188,7 +192,7 @@ namespace CapaPresentacion
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(9, 88);
+            this.label4.Location = new System.Drawing.Point(9, 89);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 16);
             this.label4.TabIndex = 1;
@@ -243,7 +247,8 @@ namespace CapaPresentacion
             // 
             this.pxImagen.BackgroundImage = global::CapaPresentacion.Properties.Resources.Imagen;
             this.pxImagen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pxImagen.Location = new System.Drawing.Point(530, 127);
+            this.pxImagen.Location = new System.Drawing.Point(531, 127);
+            this.pxImagen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pxImagen.Name = "pxImagen";
             this.pxImagen.Size = new System.Drawing.Size(160, 149);
             this.pxImagen.TabIndex = 21;
@@ -253,6 +258,7 @@ namespace CapaPresentacion
             // 
             this.cbIdpresentacion.FormattingEnabled = true;
             this.cbIdpresentacion.Location = new System.Drawing.Point(529, 87);
+            this.cbIdpresentacion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbIdpresentacion.Name = "cbIdpresentacion";
             this.cbIdpresentacion.Size = new System.Drawing.Size(161, 24);
             this.cbIdpresentacion.TabIndex = 20;
@@ -260,7 +266,7 @@ namespace CapaPresentacion
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(442, 90);
+            this.label8.Location = new System.Drawing.Point(443, 90);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(90, 16);
             this.label8.TabIndex = 19;
@@ -273,7 +279,7 @@ namespace CapaPresentacion
             this.btnBuscarCategoria.Location = new System.Drawing.Point(696, 37);
             this.btnBuscarCategoria.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBuscarCategoria.Name = "btnBuscarCategoria";
-            this.btnBuscarCategoria.Size = new System.Drawing.Size(50, 50);
+            this.btnBuscarCategoria.Size = new System.Drawing.Size(51, 50);
             this.btnBuscarCategoria.TabIndex = 18;
             this.btnBuscarCategoria.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnBuscarCategoria.UseVisualStyleBackColor = true;
@@ -281,7 +287,7 @@ namespace CapaPresentacion
             // 
             // txtIdcategoria
             // 
-            this.txtIdcategoria.Location = new System.Drawing.Point(529, 35);
+            this.txtIdcategoria.Location = new System.Drawing.Point(529, 34);
             this.txtIdcategoria.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtIdcategoria.Name = "txtIdcategoria";
             this.txtIdcategoria.Size = new System.Drawing.Size(49, 22);
@@ -293,7 +299,7 @@ namespace CapaPresentacion
             this.btnLimpiar.Location = new System.Drawing.Point(696, 192);
             this.btnLimpiar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(50, 50);
+            this.btnLimpiar.Size = new System.Drawing.Size(51, 50);
             this.btnLimpiar.TabIndex = 16;
             this.btnLimpiar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLimpiar.UseVisualStyleBackColor = true;
@@ -305,7 +311,7 @@ namespace CapaPresentacion
             this.btnCargar.Location = new System.Drawing.Point(696, 138);
             this.btnCargar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCargar.Name = "btnCargar";
-            this.btnCargar.Size = new System.Drawing.Size(50, 50);
+            this.btnCargar.Size = new System.Drawing.Size(51, 50);
             this.btnCargar.TabIndex = 15;
             this.btnCargar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCargar.UseVisualStyleBackColor = true;
@@ -339,7 +345,7 @@ namespace CapaPresentacion
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(442, 63);
+            this.label6.Location = new System.Drawing.Point(443, 63);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(70, 16);
             this.label6.TabIndex = 10;
@@ -368,6 +374,7 @@ namespace CapaPresentacion
             // 
             // btnImprimir
             // 
+            this.btnImprimir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnImprimir.Image = ((System.Drawing.Image)(resources.GetObject("btnImprimir.Image")));
             this.btnImprimir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnImprimir.Location = new System.Drawing.Point(599, 6);
@@ -378,9 +385,11 @@ namespace CapaPresentacion
             this.btnImprimir.Text = "&Imprimir";
             this.btnImprimir.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnImprimir.UseVisualStyleBackColor = true;
+            this.btnImprimir.Click += new System.EventHandler(this.btnImprimir_Click);
             // 
             // btnEliminar
             // 
+            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
             this.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEliminar.Location = new System.Drawing.Point(484, 6);
@@ -395,6 +404,7 @@ namespace CapaPresentacion
             // 
             // btnBuscar
             // 
+            this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscar.Image")));
             this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBuscar.Location = new System.Drawing.Point(368, 6);
@@ -449,7 +459,7 @@ namespace CapaPresentacion
             this.dataListado.RowHeadersWidth = 51;
             this.dataListado.RowTemplate.Height = 24;
             this.dataListado.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataListado.Size = new System.Drawing.Size(893, 221);
+            this.dataListado.Size = new System.Drawing.Size(893, 222);
             this.dataListado.TabIndex = 7;
             this.dataListado.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataListado_CellContentClick);
             this.dataListado.DoubleClick += new System.EventHandler(this.dataListado_DoubleClick);
@@ -468,7 +478,7 @@ namespace CapaPresentacion
             this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage1.Size = new System.Drawing.Size(910, 338);
+            this.tabPage1.Size = new System.Drawing.Size(909, 338);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Listado";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -481,7 +491,7 @@ namespace CapaPresentacion
             this.tabControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(918, 367);
+            this.tabControl1.Size = new System.Drawing.Size(917, 367);
             this.tabControl1.TabIndex = 4;
             // 
             // tabPage2
@@ -491,7 +501,7 @@ namespace CapaPresentacion
             this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage2.Size = new System.Drawing.Size(910, 338);
+            this.tabPage2.Size = new System.Drawing.Size(909, 338);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Mantenimiento";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -516,7 +526,7 @@ namespace CapaPresentacion
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmArticulo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = ".:. Mantenimiento de Artículos .:.";
